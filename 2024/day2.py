@@ -31,14 +31,4 @@ class Day2(AOCDay):
                     safe_count += 1
                     break
 
-
-
-
-
-
-                
-
-
-
-        
         return safe_count
