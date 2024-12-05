@@ -9,6 +9,7 @@ class Day4(AOCDay):
         
         self.word_search = np.array(word_search)
 
+
     def part1(self):
         n = self.word_search.shape[0]
 
@@ -23,6 +24,7 @@ class Day4(AOCDay):
                 count += line.count("XMAS") + line.count("SAMX")
                
         return count
+
 
     def part2(self):
         n = self.word_search.shape[0]
