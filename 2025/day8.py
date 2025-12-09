@@ -29,7 +29,7 @@ class Day8(AOCDay):
         return i, j
 
     def part1(self):
-        for _ in range(10):
+        for _ in range(1000):
             self.make_connection()
         
         connections = list(nx.connected_components(self.G))
