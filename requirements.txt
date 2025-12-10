@@ -3,3 +3,5 @@ python-dotenv
 numpy
 networkx
 scipy
+shapely
+matplotlib
