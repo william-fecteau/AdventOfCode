@@ -35,6 +35,4 @@ class Day9(AOCDay):
 
                     areas.append(dx*dy)
 
-                # areas.append()
-
         return max(areas)
